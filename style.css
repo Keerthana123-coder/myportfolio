@@ -1,0 +1,61 @@
+/* --- Styles for Project Links --- */
+.project-link {
+    font-weight: 600; /* Bolder to stand out */
+    font-style: normal;
+    font-size: 0.9em;
+}
+.resume-header p{
+     margin:0;
+}
+
+.project-link i {
+    margin-right: 5px;
+}
+
+
+/* --- Styles for Certificates Section --- */
+.certificates ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.certificates li {
+    display: flex;
+    align-items: flex-start; /* Aligns icon with the top of the text */
+    margin-bottom: 15px;
+}
+
+.certificates i {
+    color: var(--primary-color);
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 4px; /* Adjust icon vertical alignment */
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.certificates strong {
+    display: block;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.certificates p {
+    font-size: 0.9em;
+    color: var(--light-text-color);
+    margin: 0;
+}
+
+/* General Section Renaming (Use existing CSS) */
+.projects h3, .certificates h3 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+.skills p{
+ margin: 0;
+}
