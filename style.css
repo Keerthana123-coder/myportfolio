@@ -59,3 +59,6 @@
 .skills p{
  margin: 0;
 }
+.summary{
+    text-align: justify;
+}
